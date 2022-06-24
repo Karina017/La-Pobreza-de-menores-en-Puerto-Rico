@@ -1,0 +1,107 @@
+html,body {
+  display:flex; 
+  flex-direction: column; 
+  justify-content: center;
+  min-height: 100vh;
+  align-items: center;
+  background-color: #68a4b6
+;
+
+ }
+
+.title{
+  border-radius: 50%; 
+  background-color: #5795a8
+
+}
+  
+.title h1{
+  padding: 50px;
+  font-size: 40px;
+  border-radius: 50%;
+  background-color:  #84cde1
+
+}
+
+nav{
+background-color: #578694 
+}
+
+nav a{
+  margin-right: 10px;
+  color: white; 
+}
+
+nav a:hover{
+  background-color: #b42d2d;
+}
+
+.content h3{
+  font-size: 20px;
+  text-align: center;
+}
+
+.content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 600px;
+  max-width: 65%;
+  font-size: 15px;
+  margin-bottom:20px;
+}
+
+img{
+max-height: 80%;
+max-width: 80%
+}
+
+.mcontainer{
+  display:flex;
+  width: 95%;
+  border: solid;
+}
+
+.ccontainer{
+  background-color: #84cde1;
+  max-width: 300px;
+}
+
+.icontainer{
+  display: flex;
+  border: solid;
+  width: 150%;
+  height: 90%;
+  background-color:#84cde1;
+}
+
+.lcontainer li{
+  font-size: 20px;
+}
+
+textarea{
+  height: 200px;
+  width: 300px;
+  background-color: white;
+  color:black;
+}
+
+button{
+  background-color: #9d9dfb;
+}
+
+.circulo{
+  background-color: white;
+  height: 300px;
+  width: 300px;
+clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%);
+
+}
+
+.square{
+  margin-top: 20px;
+  height: 30px;
+  width: 30px;
+  background-color: white;
+  
+  
